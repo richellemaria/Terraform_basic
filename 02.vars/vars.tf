@@ -13,9 +13,9 @@ output "sample-op-var" {
 
 variable "example-list" {
     default = [
-        "Richelle"
-        "maria"
-        "Dsouza"
+        "Richelle",
+        "maria",
+        "Dsouza",
         26
     ]
 }
