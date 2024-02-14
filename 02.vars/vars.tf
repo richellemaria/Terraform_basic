@@ -11,7 +11,7 @@ output "sample-op-var" {
     value = "the value of variable is ${var.sample}"
 }
 
-variable "example-list" {
+variable "example_list" {
     default = [
         "Richelle",
         "maria",
