@@ -35,5 +35,5 @@ variable "example_map" {
 
 output "example_map_op" {
 
-    value = "I am Training in ${var.example_map[Training]} and topic is ${var.example_map[Topic]} and today is ${var.example_map[day]}"
+    value = "I am Training in ${var.example_map["Training"]} and topic is ${var.example_map["Topic"]} and today is ${var.example_map["day"]}"
 }
