@@ -8,6 +8,10 @@ resource "aws_instance" "sample" {
   }
 }
 
+output "private_ip_address" {
+  value = aws_instance.server.private_ip
+}
+
 resource "aws_security_group" "allow_all" {
   name        = "allow_tls"
   description = "Allow TLS inbound traffic"
